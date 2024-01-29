@@ -1,0 +1,9 @@
+.containerFooter {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  justify-items: center;
+  background: whitesmoke;
+}

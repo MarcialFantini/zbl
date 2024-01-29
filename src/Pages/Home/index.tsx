@@ -3,6 +3,8 @@ import styled from "./styled.module.css";
 import srcPortada from "../../../public/images/portada/building-91228_1920.jpg";
 import { WhoWeAreHome } from "@/components/WhoWeAreHome";
 import { HowWeDoHome } from "@/components/HowWeDoHome";
+import { NewsZBL } from "@/components/NewsZBL";
+import { Footer } from "@/components/Footer";
 
 export const HomePage = () => {
   return (
@@ -28,6 +30,8 @@ export const HomePage = () => {
       </div>
       <WhoWeAreHome></WhoWeAreHome>
       <HowWeDoHome></HowWeDoHome>
+      <NewsZBL></NewsZBL>
+      <Footer></Footer>
     </main>
   );
 };
