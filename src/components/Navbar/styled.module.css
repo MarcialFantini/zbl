@@ -1,0 +1,10 @@
+.containerNavbar {
+  width: 100%;
+  height: auto;
+  min-height: 30px;
+  padding: 0 5%;
+}
+
+.title {
+  font-size: 36px;
+}

@@ -1,0 +1,88 @@
+.containerWho {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+
+  min-height: 500px;
+
+  align-items: center;
+  background: no-repeat url("../../../public//images/aboutUs/about.png") center;
+
+  gap: 30px;
+  padding: 0 5%;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subText {
+  color: gray;
+}
+
+.title {
+  font-size: 36px;
+
+  margin: 0;
+}
+
+.text {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btnMore,
+.btnDetail {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btnMore {
+  background: #fcd900;
+}
+
+.btnDetail {
+  background: whitesmoke;
+}
+
+.containerItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerText h3,
+.containerText p {
+  margin: 0;
+}
+
+@media (min-height: 500px) {
+  .containerWho {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
